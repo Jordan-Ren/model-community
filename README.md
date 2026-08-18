@@ -1,6 +1,6 @@
 # ROOST Model Community
 
-Welcome to the ROOST Model Community (RMC)! The RMC’s mission is to make open safety AI models accessible and beneficial to the safety community. To achieve that mission, we are building an ecosystem of developers, practitioners, model creators, and all who share the common goal of protecting online spaces. 
+Welcome to the ROOST Model Community (RMC)! The RMC’s mission is to make open safety AI models accessible and beneficial to the safety community. To achieve that mission, we are building an ecosystem of developers, practitioners, model creators, and all who share the common goal of protecting online spaces.
 
 The RMC seeks to add tangible value for both active and potential users of open safety models and the developers of those models (called RMC Partners). Participants in the RMC benefit from:
 
@@ -19,6 +19,7 @@ You can browse the current resources directly on GitHub:
 - [cope-b/](cope-b): Resources and projects related to Zentropi's bring your own policy safety model
 - [gpt-oss-safeguard/](gpt-oss-safeguard): Resources and projects related to OpenAI's bring your own policy safety reasoning model
 - [mila/](mila): Resources and projects related to Mila's suicide-asisstance prevention guardrail
+- [roblox-pii-classifier/](roblox-pii-classifier): Resources and projects related to Roblox's chat-based PII classifiers
 - [projects/](projects): Interesting demos that are not RMC-model-specific
 - [resources/](resources): Community-wide resources for using open safety models, not tied to any single RMC Partner. Includes:
   - [RMC Guide to Using Open Safety Models](resources/RMC%20Guide%20to%20Using%20Open%20Safety%20Models.md) — an introduction to applying open safety models across the Detection, Investigation, Review, and Enforcement stages of a T&S architecture
@@ -49,8 +50,8 @@ There is no [single definition](https://arxiv.org/abs/2405.15802) of what makes 
 
 For our purposes, we see “open safety models” as an AI model (including but not limited to both large language models and traditional classifiers) that:
 
-- Has no monetary cost to access (e.g. downloadable weights are freely available)  
-- Deployment of is platform agnostic   
+- Has no monetary cost to access (e.g. downloadable weights are freely available)
+- Deployment of is platform agnostic
 - Is finetuned specifically for the purposes of Trust & Safety
 
 Additionally, we prefer models that do not have non-commercial licenses and licenses that do not place restrictions on how outputs are handled. This is because many use cases for these models happen in commercial environments and have reporting requirements (such as CSAM). These license restrictions are incompatible with the Trust & Safety users we aim to support.
